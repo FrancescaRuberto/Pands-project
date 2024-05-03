@@ -43,3 +43,16 @@ df = pd.read_csv("dataset_iris.csv")
 
 # Now I generate histograms for each variable and I save them as PNG
 # For each column in the dataset
+for column in df.columns:
+    # Plot an histodram in the current column
+    # I added the bins, the fill color, and also the edge color
+    plt.hist(df[column], bins=20, color='skyblue', edgecolor='black')
+    #I set the title of the plot with the name of the column
+    plt.title(f'Histogram of {column}')
+    # I labelled x axis
+    plt.xlabel('Value')
+    # I labelled y axis
+    plt.ylabel('Frequency')
+    # I gave the input to save the plots as image
+    # I set the image name as their title
+    plt.savefig(f'{column}_histogram.png')
