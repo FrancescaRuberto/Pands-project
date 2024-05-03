@@ -31,3 +31,15 @@ def summarize_variables (summary_output):
 
 # Call the summarize_variables function with the output file name
 summarize_variables("summary.txt")
+
+# Our second step consist in creating histograms of each variable
+# I will save each histogram as png file
+# I import matplotlib that will help me in creating the plot
+
+import matplotlib.pyplot as plt 
+
+# I upload the dataset with pandas
+df = pd.read_csv("dataset_iris.csv")
+
+# Now I generate histograms for each variable and I save them as PNG
+# For each column in the dataset
