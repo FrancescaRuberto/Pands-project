@@ -39,7 +39,7 @@ summarize_variables("summary.txt")
 import matplotlib.pyplot as plt 
 
 # I upload the dataset with pandas
-df = pd.read_csv("dataset_iris.csv")
+df = pd.read_csv("iris_dataset.csv")
 
 # Now I generate histograms for each variable and I save them as PNG
 # For each column in the dataset
@@ -56,3 +56,7 @@ for column in df.columns:
     # I gave the input to save the plots as image
     # I set the image name as their title
     plt.savefig(f'{column}_histogram.png')
+
+# Since I was having overlapping issues I added plt.close
+    # In this ways I should prevent overlaps 
+    plt.close()
