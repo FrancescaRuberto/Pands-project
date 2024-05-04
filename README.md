@@ -12,3 +12,13 @@ The goal of this repository is to conduct a basic analysis of the well-known Iri
 This part of the code aims to provide a summary of the Iris flower dataset variables as its first step. The summary is outputted as a text file to facilitate reading and interpretation.
 By importing pandas, the dataset file can be easily read and manipulated, enabling efficient data analysis. The summarize_variables() function is defined to achieve this purpose.
 Within the function, the dataset is loaded using pandas' read_csv() function, and a text file is opened using Python's built-in open() function. In my Iris dataset analysis project, I've mastered the use of Python's open() function, pivotal in my code. After thorough research, I've learned to employ this function for text file operations, facilitating the creation of a summary file for Iris dataset variables. The summary statistics of each variable in the dataset are calculated using the describe() function from pandas, which generates descriptive statistics.
+
+### Visual analysis 1: exploring data through histograms
+The second step of this analysis consisted in building histograms for each variable in the Iris dataset. The creation of these plots help us visualizing the distribution of values inside the dataset, and also in understanding the frequency of occurrence of each variable. 
+In order to complete this task, I first imported matplotlib.pyplot library, that is an extremely useful library that provides tools for the creation of plots and it is widely used in data analytics. 
+Next, I gothrough each column in the dataset. For each colum I:
+- Plotted an histogram, specifying the number of bins, the fill color, and edge color. 
+- Set the title of the plot to reflect the variable being visualized (I gave as title to each histogram the name of the variable showed).
+- I labelled the axes in order to give context to the plot. 
+- I saved each histogram as PNG file, naming it by reflecting the title given. 
+- Lastly, I used plt.close() to close the plot. I decided to use it since I was having overlapping issues. In this way, I avoid such issues.

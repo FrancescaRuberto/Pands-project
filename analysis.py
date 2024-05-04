@@ -58,5 +58,5 @@ for column in df.columns:
     plt.savefig(f'{column}_histogram.png')
 
 # Since I was having overlapping issues I added plt.close
-    # In this ways I should prevent overlaps 
+# In this ways I should prevent overlaps 
     plt.close()
