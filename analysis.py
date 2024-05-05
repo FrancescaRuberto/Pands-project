@@ -46,7 +46,7 @@ df = pd.read_csv("iris_dataset.csv")
 for column in df.columns:
     # Plot an histodram in the current column
     # I added the bins, the fill color, and also the edge color
-    plt.hist(df[column], bins=20, color='skyblue', edgecolor='black')
+    plt.hist(df[column], bins=10, color='skyblue', edgecolor='black')
     #I set the title of the plot with the name of the column
     plt.title(f'Histogram of {column}')
     # I labelled x axis
