@@ -13,6 +13,8 @@ This part of the code aims to provide a summary of the Iris flower dataset varia
 By importing pandas, the dataset file can be easily read and manipulated, enabling efficient data analysis. The summarize_variables() function is defined to achieve this purpose.
 Within the function, the dataset is loaded using pandas' read_csv() function, and a text file is opened using Python's built-in open() function. In my Iris dataset analysis project, I've mastered the use of Python's open() function, pivotal in my code. After thorough research, I've learned to employ this function for text file operations, facilitating the creation of a summary file for Iris dataset variables. The summary statistics of each variable in the dataset are calculated using the describe() function from pandas, which generates descriptive statistics.
 
+Based on the provided summary, it's evident that the dataset contains information about the dimensions of sepals and petals of Iris flowers. The summary provides statistical measures such as mean, standard deviation, minimum, maximum, and quartiles for each variable. From this summary, we can collect insights about the range, distribution, and central tendency of each variable, providing valuable information for further analysis and interpretation.
+
 ### Visual analysis 1: exploring data through histograms
 The second step of this analysis consisted in building histograms for each variable in the Iris dataset. The creation of these plots help us visualizing the distribution of values inside the dataset, and also in understanding the frequency of occurrence of each variable. 
 In order to complete this task, I first imported matplotlib.pyplot library, that is an extremely useful library that provides tools for the creation of plots and it is widely used in data analytics. 
@@ -22,3 +24,11 @@ Next, I gothrough each column in the dataset. For each colum I:
 - I labelled the axes in order to give context to the plot. 
 - I saved each histogram as PNG file, naming it by reflecting the title given. 
 - Lastly, I used plt.close() to close the plot. I decided to use it since I was having overlapping issues. In this way, I avoid such issues.
+
+#### Observations
+ The histograms provide valuable insights into the distribution of each variable within the Iris dataset. They help us understand the range of values, identify potential outliers, and discern any patterns or clusters that may exist within the data.
+
+- Sepal Length Histogram: the histogram for shows an overal normal distribution, with a number of different peaks, and the highest frequency of the sepal is between 5.0 and 6.5.
+- Sepal Width Histogram: the histogram shows an frequency between 3.0 and 3.5 with a quite evident central peak compared to sepal lenght 
+- Petal Length Histogram: the histogram for petal length reveals clear distinctions between different species. There are multiple peaks or clusters, and the highest frequency is between 1.0 and 1.5. The plot seems suggesting that a specic cluster has smaller petals than others.
+- Petal Width Histogram: similar to the petal length  the petal width histogram also shows distinct clusters. As per petal lenght, also in this case the plot seems suggesting that there is a cluster with tighter than others. The highest frequency recorded is between 0.0 and 0.5.
