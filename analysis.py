@@ -56,7 +56,37 @@ for column in df.columns:
     # I gave the input to save the plots as image
     # I set the image name as their title
     plt.savefig(f'{column}_histogram.png')
-
 # Since I was having overlapping issues I added plt.close
 # In this ways I should prevent overlaps 
     plt.close()
+
+#I procede my examination with a correlation analysis
+#I import pandas that help me with data analysis
+import pandas as pd
+#I reload the dataset
+df = pd.read_csv("iris_dataset.csv")
+
+#I first calulate the correlation between sepal lenght and width
+sepal_lenght = df["sepal_lenght"]
+sepal_width = df["sepal_width"]
+#Now I calculate the correlation between petal lenght and petal width
+petal_lenght = df["petal_lenght"]
+petal_width = df["petal_width"]
+#Now I calculate correlation between sepal and petal lenght
+sepal_lenght = df["sepal_lenght"]
+petal_lenght = df["petal_lenght"]
+#Now I calculate correlation between sepal and petal width
+sepal_width = df["sepal_width"]
+petal_width = df["petal_width"]
+
+#I calculate the correlation coefficient of each couple of variables I took
+correlation_sepals = sepal_lenght.corr(sepal_width)
+correlation_petals = petal_lenght.corr(petal_width)
+correlation_sepal_petal_lenght = sepal_lenght.corr(petal_lenght)
+correlation_sepal_petal_width = sepal_width.corr(petal_width)
+
+#I print the results of the correlation coefficient for each couple of variables
+print("Correlation coefficient between sepal lenght and width: ", correlation_sepals)
+print("Correlation coefficient between petal lenght and width: ", correlation_petals)
+print("Correlation coefficient between sepal and petal lenght: ", correlation_sepal_petal_lenght)
+print("Correlation coefficient between sepal and petal width: ", correlation_sepal_petal_width)
