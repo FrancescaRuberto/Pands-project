@@ -32,3 +32,13 @@ Next, I gothrough each column in the dataset. For each colum I:
 - Sepal Width Histogram: the histogram shows an frequency between 3.0 and 3.5 with a quite evident central peak compared to sepal lenght 
 - Petal Length Histogram: the histogram for petal length reveals clear distinctions between different species. There are multiple peaks or clusters, and the highest frequency is between 1.0 and 1.5. The plot seems suggesting that a specic cluster has smaller petals than others.
 - Petal Width Histogram: similar to the petal length  the petal width histogram also shows distinct clusters. As per petal lenght, also in this case the plot seems suggesting that there is a cluster with tighter than others. The highest frequency recorded is between 0.0 and 0.5.
+
+### Understanding Variable Correlations
+Correlation analysis is a statistical technique used to measure the strength and direction of the relationship between two variables. It helps in understanding how changes in one variable are associated with changes in another. In order to calculate and then analyse correlation coefficient for couples of choosen variables, I took the following steps:
+
+- I imported the pandas library to facilitate data analysis and loaded the dataset.
+- I selected pairs of variables for correlation analysis: sepal length and width, petal length and width, sepal length and petal length, and sepal width and petal width.
+- For each pair of variables, I calculated the correlation coefficient using the .corr() method provided by pandas.
+- Finally, I printed the correlation coefficients for each pair of variables to observe their relationships.
+
+By performing correlation analysis, I aimed to understand the degree of association between different features of the iris dataset. This analysis helps in gaining insights into the dataset's structure and understanding how variables may influence each other.
