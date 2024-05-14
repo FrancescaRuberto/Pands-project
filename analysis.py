@@ -32,6 +32,8 @@ def summarize_variables (summary_output):
 # Call the summarize_variables function with the output file name
 summarize_variables("summary.txt")
 
+
+
 # Our second step consist in creating histograms of each variable
 # I will save each histogram as png file
 # I import matplotlib that will help me in creating the plot
@@ -59,6 +61,8 @@ for column in df.columns:
 # Since I was having overlapping issues I added plt.close
 # In this ways I should prevent overlaps 
     plt.close()
+
+
 
 #I procede my examination with a correlation analysis
 #I import pandas that help me with data analysis
@@ -90,3 +94,21 @@ print("Correlation coefficient between sepal lenght and width: ", correlation_se
 print("Correlation coefficient between petal lenght and width: ", correlation_petals)
 print("Correlation coefficient between sepal and petal lenght: ", correlation_sepal_petal_lenght)
 print("Correlation coefficient between sepal and petal width: ", correlation_sepal_petal_width)
+
+
+# Now, I would like to conclude my analysis by plotting some scatter variables
+# So we can have a visual and cleared relations between varibales in the dataset
+# Let's output a scatter plot of each pair of variables
+# I re-import the dataset
+df = pd.read_csv("dataset_iris.csv")
+
+# I use the loop function to esamite couples in the dataset 
+# In this way I can create a plot for each couple of varibales
+for col1 in df.columns:  #For each column in the dataset # I use for instead of while because I know the exact number of variables I want to iterate
+    for col2 in df.columns: # Again for each column, in order to avoid overlapping and creating the plot with the same variable
+        if col1 != col2: # After a couple of attempts, I understood that I have to make sure that I am not creating a plot of a varible with itself. 
+            plt.scatter(df[col1], df[col2], color='blue')  # Create scatter plot
+            plt.xlabel(col1)  # I label the x axis
+            plt.ylabel(col2)  # I label the y axis
+            plt.title(f'Scatter plot of {col1} vs {col2}')  # I add the plot title
+            plt.show()  # Lastly, I show the plot   
