@@ -9,7 +9,7 @@ The Iris dataset is considered multivariate, indicating that it comprises an ana
 - Bozkus, E. (December 2022). Exploring the Iris Flower Dataset. Medium. [Retrieved here](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)
 - Cui, Y. (April 2020). The Iris Dataset - A little bit of history and biology. Published in: Towards Data Science. [Retrieved here](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5)
 - Rouse, M. (August 2017). Iris Flower Data Set. Technopedia. [Retrieved here](https://www.techopedia.com/definition/32880/iris-flower-data-set)
-- Fisher, R.A. (1936). The use of multiple meaurements in taxonomic problems. Annual Eugenics, vol. 7, n. 2. [Retrieved here](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-1809.1936.tb02137.x)
+- Fisher, R.A. (1936). The use of multiple meaurements in taxonomic problems. Annual Eugenics, vol. 7, n. 2. [Retrieved here](https:/onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-1809.1936.tb02137.x)
 - Fisher, R. A.. (1988). Iris. UCI Machine Learning Repository. https://doi.org/10.24432/C56C76.
 - panData. (2023). "Unveiling the mysteries of the Iris dataset: A comprehensive analysis and Machine Learning Classification." [Retrieved here](https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d)
 
