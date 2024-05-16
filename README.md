@@ -79,3 +79,9 @@ From the correlation matrix, we can draw some conclusions about the relationship
 - Correlation coefficient between sepal and petal width: With a coefficient of -0.366, there's a weak negative correlation between sepal and petal width. This suggests that while there may be some tendency for flowers with wider sepals to have slightly narrower petals, the relationship is not very strong.
 
 #### References
+- BMJ. (n/a). "11. Correlation and regression." BMJ. [Retrieved here]( https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one/11-correlation-and-regression)
+- Brownlee, J. (November 2023). "How to Use Correlation to Understand the Relationship Between Variables." Machine Learning Mastery. https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/
+- Canales Luna, J. (February 2022). Python Details on Correlation Tutorial. DataCamp. [Retrieved here](https://www.datacamp.com/tutorial/tutorial-datails-on-correlation)
+- Field, A. (2018). Discovering Statistics Using IBM SPSS Statistics (Fifth Edition). Sage Publications Ltd.
+- Schober, P., Boer, C., & Schwarte, L. A. (n/a). Correlation Coefficients: Appropriate Use and Interpretation.
+- Stojiljković, M. (2019, December 23). NumPy, SciPy, and pandas: Correlation With Python. Real Python. [Retrieved here](https://realpython.com/numpy-scipy-pandas-correlation-python/)
