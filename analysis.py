@@ -105,10 +105,10 @@ df = pd.read_csv("dataset_iris.csv")
 # I use the loop function to esamite couples in the dataset 
 # In this way I can create a plot for each couple of varibales
 for col1 in df.columns:  #For each column in the dataset # I use for instead of while because I know the exact number of variables I want to iterate
-    for col2 in df.columns: # Again for each column, in order to avoid overlapping and creating the plot with the same variable
+    for col2 in df.columns: # Again for each column, in order to avoid overlapping and creating the plot with the same variable (inner loop)
         if col1 != col2: # After a couple of attempts, I understood that I have to make sure that I am not creating a plot of a varible with itself. 
             plt.scatter(df[col1], df[col2], color='blue')  # Create scatter plot
             plt.xlabel(col1)  # I label the x axis
             plt.ylabel(col2)  # I label the y axis
             plt.title(f'Scatter plot of {col1} vs {col2}')  # I add the plot title
-            plt.show()  # Lastly, I show the plot   
+            plt.show()  # Lastly, I show the plot    

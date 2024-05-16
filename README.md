@@ -54,6 +54,11 @@ Next, I gothrough each column in the dataset. For each colum I:
 - Petal Width Histogram: similar to the petal length  the petal width histogram also shows distinct clusters. As per petal lenght, also in this case the plot seems suggesting that there is a cluster with tighter than others. The highest frequency recorded is between 0.0 and 0.5.
 
 #### References
+- Alexandru, D. (n/a). "Simple Analysis of Iris Dataset." Kaggle. [Retrieved here](https://www.kaggle.com/code/danalexandru/simple-analysis-of-iris-dataset)
+- Angela1C. (n/a). "Investigating the Iris Dataset." Angela1C. [Retrieved here](https://www.angela1c.com/projects/iris_project/investigating-the-iris-dataset/)
+- GeeksforGeeks. (n/a). "Box Plot and Histogram Exploration on Iris Data." GeeksforGeeks. [Retrieved here](https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/)
+- Tutorialspoint. (n/a). "How to Save a Histogram Plot in Python." Tutorialspoint. [Retrieved here] (https://www.tutorialspoint.com/how-to-save-a-histogram-plot-in-python)
+- Welch, AJ., (n/a). "How to Save a Plot to a File Using Matplotlib." Atlassian. [Retrieved here] (https://www.atlassian.com/data/notebook/how-to-save-a-plot-to-a-file-using-matplotlib)
 
 ## Understanding Variable Correlations
 Correlation analysis is a statistical technique used to measure the strength and direction of the relationship between two variables. It helps in understanding how changes in one variable are associated with changes in another. In order to calculate and then analyse correlation coefficient for couples of choosen variables, I took the following steps:
