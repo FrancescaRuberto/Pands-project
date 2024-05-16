@@ -80,7 +80,7 @@ From the correlation matrix, we can draw some conclusions about the relationship
 
 #### References
 - BMJ. (n/a). "11. Correlation and regression." BMJ. [Retrieved here]( https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one/11-correlation-and-regression)
-- Brownlee, J. (November 2023). "How to Use Correlation to Understand the Relationship Between Variables." Machine Learning Mastery. https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/
+- Brownlee, J. (November 2023). "How to Use Correlation to Understand the Relationship Between Variables." Machine Learning Mastery. [Retrieved here](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
 - Canales Luna, J. (February 2022). Python Details on Correlation Tutorial. DataCamp. [Retrieved here](https://www.datacamp.com/tutorial/tutorial-datails-on-correlation)
 - Field, A. (2018). Discovering Statistics Using IBM SPSS Statistics (Fifth Edition). Sage Publications Ltd.
 - Schober, P., Boer, C., & Schwarte, L. A. (n/a). Correlation Coefficients: Appropriate Use and Interpretation.
