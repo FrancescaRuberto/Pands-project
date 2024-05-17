@@ -85,3 +85,25 @@ From the correlation matrix, we can draw some conclusions about the relationship
 - Field, A. (2018). Discovering Statistics Using IBM SPSS Statistics (Fifth Edition). Sage Publications Ltd.
 - Schober, P., Boer, C., & Schwarte, L. A. (n/a). Correlation Coefficients: Appropriate Use and Interpretation.
 - Stojiljković, M. (2019, December 23). NumPy, SciPy, and pandas: Correlation With Python. Real Python. [Retrieved here](https://realpython.com/numpy-scipy-pandas-correlation-python/)
+
+## Visual analysis 2: exploring data through scatter plots
+After analyzing the correlation coefficient of the four pairs of variables in the Iris dataset, I believe that visualizing the relationships through scatter plots will provide valuable insights. Therefore, I proceeded to create a scatter plot for each pair of variables in the dataset. These scatter plots are valuable for visualizing the relationships between different variables and identifying potential patterns or correlations.
+
+To accomplish this, I utilized a loop to go through each pair of variables in the dataset. For each pair of variables, I performed the following steps:
+
+- Created a scatter plot using plt.scatter(), with one variable represented on the x-axis and the other on the y-axis.
+- Set the x-axis and y-axis labels to reflect the variables being visualized.
+- Assigned a title to each plot indicating the variables being compared.
+- Displayed each scatter plot using plt.show().
+
+It's worth mentioning that I encountered a challenge in ensuring that each scatter plot displayed unique variable combinations and avoided plotting a variable against itself. To address this, I implemented a conditional check within the loop to skip cases where the same variable was being compared. This solution was inspired by a code snippet I found on Stack Overflow (1), which helped me overcome the issue effectively.
+
+(1) How to make a loop for multiple scatterplots in python?. Stack Overflow.[Linke here](https://stackoverflow.com/questions/56974174/how-to-make-a-loop-for-multiple-scatterplots-in-python)
+
+### Observations
+Overall, the scatter plots offer valuable insights into the relationships between different variables in the Iris dataset, aiding in the exploration and analysis of the data. Some other useful insights we can extract from the scatter plots:
+
+- Sepal Width vs Petal Length:
+From the scatter plot, there seems to be a slight tendency for flowers with longer petals to have slightly greater sepal width. However, the dispersion of points indicates significant variation within each species.: from the scatter plot, there seems to be a slight tendency for flowers with longer petals to have slightly greater sepal width. However, we may have significant variation within each species.
+- Sepal Length vs Petal Width:
+The scatter plot in this case seems suggestic a positiva realtion between sepal lenght and petal width. Theoretically, this means that as sepal lenght increase, there tends to be a greater petal width. 
