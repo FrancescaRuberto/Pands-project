@@ -2,6 +2,26 @@
 
 ![Iris Dataset](https://media.licdn.com/dms/image/D5612AQF9X65-BxcKlQ/article-cover_image-shrink_720_1280/0/1659902345087?e=1719446400&v=beta&t=OPwmr3n5GD1rH2psvv2EkgVlc-uxULYb7_4H0_blZtk)
 
+## Table of Contents
+
+1. [Introduction](#introduction-to-iris-flower-dataset)
+  - 1.1 [References](#references) 
+2. [Purpose](#purpose-of-this-repository)
+3. [Variable summary](#summarizing-variables-outputted-as-text-file)
+  - 3.1 [References](#references-1)
+4. [Exploring data through histograms](#visual-analysis-1-exploring-data-through-histograms)
+  - 4.1 [Observations on histograms](#observations)
+  - 4.2 [References](#references-2)
+5. [Correlation analysis](#understanding-variable-correlations)
+  - 5.1 [Observations on correlation](#observations-1)
+  - 5.2 [References](#references-3)
+6. [Exploring data relation through scatter plots](#visual-analysis-2-exploring-data-through-scatter-plots)
+  - 6.1 [Observations on scatter plots](#observations-2)
+  - 6.2 [References](#references-4)
+7. [Conclusion](#conclusion)
+8. [References](#referencesliterature)
+
+
 ## Introduction to Iris Flower Dataset
 The Iris dataset is considered multivariate, indicating that it comprises an analysis object inherently consisting of at least two components. Introduced in 1936 by the British statistician, mathematician, and biologist Ronald Fisher, this dataset includes 150 instances of Iris flowers classified into three species: Iris Setosa, Iris Virginica, and Iris Versicolor. Within the dataset, four variables are taken into account: petal length, petal width, sepal length, and sepal width. This dataset is extensively utilized in statistical and machine learning analyses.
 
