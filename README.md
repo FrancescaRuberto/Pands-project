@@ -108,6 +108,12 @@ From the scatter plot, there seems to be a slight tendency for flowers with long
 - Sepal Length vs Petal Width:
 The scatter plot in this case seems suggestic a positiva realtion between sepal lenght and petal width. Theoretically, this means that as sepal lenght increase, there tends to be a greater petal width.
 
+#### References
+- GeeksforGeeks. (n/a). Python Nested Loops. GeeksforGeeks. [Retrieved from](https://www.geeksforgeeks.org/python-nested-loops/)
+- PyNative. (Updated on: September 2021). Python Nested Loops. PyNative. [Retrieved here](https://pynative.com/python-nested-loops/)
+- Gruppetta, S., (May 2021). "Visualizing Python plt.scatter().". Real Python. [Retrieved from](https://realpython.com/visualizing-python-plt-scatter/)
+- User: andrej. (2019). How to make a loop for multiple scatterplots in Python?. Stack Overflow.[Retrieved from](https://stackoverflow.com/questions/56974174/how-to-make-a-loop-for-multiple-scatterplots-in-python)
+- W3Schools. (n/a). Matplotlib scatter plot. [Retrieved from](https://www.w3schools.com/python/matplotlib_scatter.asp)
 
 ## Conclusion 
 Through the analysis of the Iris Flower Dataset, we've gained valuable insights into the characteristics and relationships within the dataset. Here are some key conclusions drawn from the analysis:
@@ -117,3 +123,31 @@ Visual Analysis 1 - Histograms: The histograms helped us visualize the distribut
 Understanding Variable Correlations: By calculating correlation coefficients between pairs of variables, we gained insights into the relationships within the dataset. These correlations revealed both strong and weak associations between different features of Iris flowers, such as sepal length and width, petal length and width, and combinations thereof.
 Visual Analysis 2 - Scatter Plots: The scatter plots further elucidated the relationships between variables by providing visual representations of their associations. We observed patterns and trends within the data, such as positive and negative correlations between sepal and petal dimensions.
 Overall, this analysis deepened our understanding of the Iris Flower Dataset and highlighted the interplay between its variables. These insights can be invaluable for various applications, including species classification, botanical research, and machine learning model development. Through continued exploration and analysis, further insights and discoveries can be made, contributing to our understanding of this classic dataset and its implications in various fields.
+
+## References/Literature
+- Alexandru, D. (n/a). "Simple Analysis of Iris Dataset." Kaggle. [Retrieved here](https://www.kaggle.com/code/danalexandru/simple-analysis-of-iris-dataset)
+- Angela1C. (n/a). "Investigating the Iris Dataset." Angela1C. [Retrieved here](https://www.angela1c.com/projects/iris_project/investigating-the-iris-dataset/)
+- Anis, A. (April 2022). 5 different ways to load data in Python. KDnuggets.com. [Retrieved here](https://www.kdnuggets.com/2020/08/5-different-ways-load-data-python.html)
+- BMJ. (n/a). "11. Correlation and regression." BMJ. [Retrieved here](https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one/11-correlation-and-regression)
+- Bozkus, E. (December 2022). Exploring the Iris Flower Dataset. Medium. [Retrieved here](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)
+- Brownlee, J. (November 2023). "How to Use Correlation to Understand the Relationship Between Variables." Machine Learning Mastery. [Retrieved here](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
+- Cloud, S. (July 2023). Python: Display All Columns of a Pandas DataFrame in '.describe()'. SaturnCloud.io. [Retrieved here](https://saturncloud.io/blog/python-spyder-display-all-columns-of-a-pandas-dataframe-in-describe/#:~:text=describe()%20method%20in%20Pandas,and%20maximum%20of%20the%20columns.)
+- Cui, Y. (April 2020). The Iris Dataset - A little bit of history and biology. Published in: Towards Data Science. [Retrieved here](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5)
+- Dogan, A. (August 2021). 5 ways to load datasets in Python. Published in: Python in Plain English. [Retrieved here](https://python.plainenglish.io/5-ways-to-load-datasets-in-python-2ca28101a345)
+- Fagbuyiro, D. (August 2022). File handling in Python - How to create, read, and write to a file. FreeCodeCamp.org. [Retrieved here](https://www.freecodecamp.org/news/file-handling-in-python/)
+- Field, A. (2018). Discovering Statistics Using IBM SPSS Statistics (Fifth Edition). Sage Publications Ltd.
+- Fisher, R.A. (1936). The use of multiple measurements in taxonomic problems. Annual Eugenics, vol. 7, n. 2. [Retrieved here](https:/onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-1809.1936.tb02137.x)
+- Fisher, R. A.. (1988). Iris. UCI Machine Learning Repository.[Retrieved here](https://doi.org/10.24432/C56C76.)
+- GeeksforGeeks. (n/a). Python Nested Loops. GeeksforGeeks. [Retrieved here](https://www.geeksforgeeks.org/python-nested-loops/)
+- GeeksforGeeks. (n/a). "Box Plot and Histogram Exploration on Iris Data." GeeksforGeeks. [Retrieved here](https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/)
+- Gruppetta, S., (May 2021). "Visualizing Python plt.scatter().". Real Python. [Retrieved here](https://realpython.com/visualizing-python-plt-scatter/)
+- Mertz, J. (February 2019). Reading and Writing Files in Python (Guide). Realpython.com. [Retrieved here](https://realpython.com/visualizing-python-plt-scatter/)
+- panData. (2023). "Unveiling the mysteries of the Iris dataset: A comprehensive analysis and Machine Learning Classification." [Retrieved here]https://levelup.gitconnected.com/unveiling-the-mysteries-of-the-iris-dataset-a-comprehensive-analysis-and-machine-learning-f5c4f9dbcd6d)
+- PyNative. (Updated on: September 2021). Python Nested Loops. PyNative. [Retrieved here](https://pynative.com/python-nested-loops/)
+- Rouse, M. (August 2017). Iris Flower Data Set. Technopedia. [Retrieved here](https://www.techopedia.com/definition/32880/iris-flower-data-set)
+- Schober, P., Boer, C., & Schwarte, L. A. (n/a). Correlation Coefficients: Appropriate Use and Interpretation.
+- Stojiljković, M. (2019, December 23). NumPy, SciPy, and pandas: Correlation With Python. Real Python. [Retrieved here](https://realpython.com/numpy-scipy-pandas-correlation-python/)
+- Tutorialspoint. (n/a). "How to Save a Histogram Plot in Python." Tutorialspoint. [Retrieved here](https://www.tutorialspoint.com/how-to-save-a-histogram-plot-in-python)
+- User: andrej. (2019). How to make a loop for multiple scatterplots in Python?. Stack Overflow. [Retrieved from](https://stackoverflow.com/questions/56974174/how-to-make-a-loop-for-multiple-scatterplots-in-python)
+- Welch, AJ., (n/a). "How to Save a Plot to a File Using Matplotlib." Atlassian. [Retrieved here](https://www.atlassian.com/data/notebook/how-to-save-a-plot-to-a-file-using-matplotlib)
+- W3Schools. (n/a). Matplotlib scatter plot. [Retrieved from](https://www.w3schools.com/python/matplotlib_scatter.asp)
