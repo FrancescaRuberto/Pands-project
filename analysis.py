@@ -46,7 +46,7 @@ df = pd.read_csv("iris_dataset.csv")
 # Now I generate histograms for each variable and I save them as PNG
 # For each column in the dataset
 for column in df.columns:
-    # Plot an histodram in the current column
+    # Plot an histogram in the current column
     # I added the bins, the fill color, and also the edge color
     plt.hist(df[column], bins=10, color='skyblue', edgecolor='black')
     #I set the title of the plot with the name of the column
@@ -97,12 +97,12 @@ print("Correlation coefficient between sepal and petal width: ", correlation_sep
 
 
 # Now, I would like to conclude my analysis by plotting some scatter variables
-# So we can have a visual and cleared relations between varibales in the dataset
+# So we can have a visual and clearer visualization of relations between varibales in the dataset
 # Let's output a scatter plot of each pair of variables
 # I re-import the dataset
 df = pd.read_csv("dataset_iris.csv")
 
-# I use the loop function to esamite couples in the dataset 
+# I use the loop function to examinate couples in the dataset 
 # In this way I can create a plot for each couple of varibales
 for col1 in df.columns:  #For each column in the dataset # I use for instead of while because I know the exact number of variables I want to iterate
     for col2 in df.columns: # Again for each column, in order to avoid overlapping and creating the plot with the same variable (inner loop)
